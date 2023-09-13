@@ -30,7 +30,6 @@ function highlight()
 
     cssSpan.forEach((span) =>{
         span.classList.add("highlighted");
-
         setTimeout(() =>{
             span.classList.remove("highlighted")
         },2000);
